@@ -1,7 +1,12 @@
 import React from "react";
+import Layout from "../../components/Layout";
 
 const BoardPage = () => {
-  return <div>게시판</div>;
+  return (
+    <Layout>
+      <h1>게시판</h1>
+    </Layout>
+  );
 };
 
 export default BoardPage;
